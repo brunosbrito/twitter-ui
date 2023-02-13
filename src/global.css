@@ -39,24 +39,6 @@ a {
   border-right: 1px solid #ebeef0;
 }
 
-.content-header {
-  display: flex;
-  justify-content:space-between;
-  padding: 1.53rem 1.25rem;
-  border-bottom: 1px solid #ebeef0;
-}
-
-.content-header p {
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
-.content-header svg {
-  width: 1.5rem;
-  height: 1.25rem;
-  color: var(--twitter-blue);
-}
-
 .tweet-form {
   display: flex;
   flex-direction: column;
