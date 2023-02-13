@@ -1,6 +1,6 @@
-import { Sparkle } from 'phosphor-react';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Header } from './components/Header';
 import { SideBar } from './components/SideBar';
 import Tweet  from './components/Tweet'
 import './global.css';
@@ -12,10 +12,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       <SideBar />
 
       <div className="content">
-        <div className='content-header'>
-          <p>Home</p>
-          <Sparkle />
-        </div>
+        <Header />
         <form className='tweet-form'>
           <label htmlFor="tweet">
             <img src='https://avatars.githubusercontent.com/u/93350649?v=4' alt='Bruno Brito'></img>
