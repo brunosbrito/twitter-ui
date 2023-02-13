@@ -2,6 +2,7 @@ import { Sparkle } from 'phosphor-react';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { SideBar } from './components/SideBar';
+import Tweet  from './components/Tweet'
 import './global.css';
 
 
@@ -24,6 +25,8 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
           <button type='submit'>Tweet</button>
         </form>
         <div className='separator'/>
+
+        <Tweet />
       </div>
     </div>
   </React.StrictMode>,

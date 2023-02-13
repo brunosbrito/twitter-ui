@@ -1,0 +1,71 @@
+.tweet {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  padding: 1.5rem 1.25rem;
+  gap: 1.25rem;
+  text-decoration: none;
+  border-bottom: 1px solid #ebeef0 ;
+}
+
+.tweet img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 9999px;
+}
+
+.tweet .tweet-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.tweet .tweet-header {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.tweet .tweet-header strong {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.tweet .tweet-header span {
+  font-size: 0.875rem;
+  color: #89A2B8;
+  font-weight: 500;
+}
+
+.tweet .tweet-content p {
+  line-height: 1.25;
+}
+
+.tweet .tweet-content .tweet-footer {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 0.75rem;
+}
+
+.tweet-footer button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.rem;
+  background: transparent;
+  border: 0;
+  gap: 0.5rem;
+  color: #89A2B8;
+}
+
+.tweet-footer button svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.tweet-footer button:hover{
+  color: var(--twitter-blue);
+}
+
+
+
